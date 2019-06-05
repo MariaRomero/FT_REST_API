@@ -4,7 +4,7 @@
   "description": "Node.js REST app",
   "main": "server.js",
   "scripts": {
-    "test": "./app/tests/test.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -18,13 +18,9 @@
   "homepage": "https://github.com/MariaRomero/FT_REST_API#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
-    "chai": "^4.2.0",
     "chalk": "^2.4.2",
     "express": "^4.17.1",
     "mongodb": "^3.2.7",
     "mongoose": "^5.5.12"
-  },
-  "devDependencies": {
-    "mocha": "^6.1.4"
   }
 }
